@@ -19,7 +19,6 @@ import retrofit2.http.Query;
  *
  */
 
-
 public interface KobisAPI {
 
     @GET("webservice/rest/boxoffice/searchDailyBoxOfficeList.json")

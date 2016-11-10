@@ -22,4 +22,5 @@ public interface NaverSearchAPI {
     })
     @GET("v1/search/movie.xml")
     Call<NaverSearchData> getData(@Query("query") String query);
+//    , @Query("display")int display, @Query("start") int start
 }
