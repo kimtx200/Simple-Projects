@@ -14,7 +14,7 @@ import study.com.ted.fingo_ted.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SignMainFragment extends Fragment implements View.OnClickListener{
+public class SignMainFragment extends Fragment implements View.OnClickListener {
 
     Button btnSignIn;
     Button btnSignFB;
@@ -47,7 +47,7 @@ public class SignMainFragment extends Fragment implements View.OnClickListener{
     @Override
     public void onClick(View v) {
 
-        switch(v.getId()){
+        switch (v.getId()) {
             case R.id.btnSignIn:
 
                 Fragment signInFragment = new SignInFragment();
@@ -73,7 +73,7 @@ public class SignMainFragment extends Fragment implements View.OnClickListener{
 
     }
 
-    private void replaceFragment(Fragment fragment){
+    private void replaceFragment(Fragment fragment) {
 
         FragmentManager fragmentManager = getFragmentManager();
         android.support.v4.app.FragmentTransaction transaction = fragmentManager.beginTransaction();

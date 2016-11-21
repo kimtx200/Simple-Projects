@@ -10,12 +10,10 @@ import study.com.ted.fingo_ted.R;
 
 public class SignActivity extends AppCompatActivity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign);
-
         replaceFragment(new SignMainFragment());
 
     }
